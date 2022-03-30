@@ -6,3 +6,4 @@ members = ["geo", "geo-types", "geo-postgis", "geo-test-fixtures"]
 # Ensure any transitive dependencies also use the local geo/geo-types
 geo = { path = "geo" }
 geo-types = { path = "geo-types" }
+geographiclib-rs = { git = "https://github.com/georust/geographiclib-rs", branch = "release/0.2.1" }
